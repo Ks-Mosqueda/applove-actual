@@ -13,11 +13,24 @@
 outline: 1px solid blue;
 height: 100px;
 position: relative;
+
+}
+
+footer {
+  background-color: #373b47;
+  height: 80px;
+  clear: left;
+}
+
+footer > p {
+  color: white;
+  text-align: center;
 }
 
 a { /*textos de encabezado*/
 outline: 1px solid red;
 }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
